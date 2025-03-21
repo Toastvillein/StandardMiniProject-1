@@ -22,4 +22,14 @@ public class MemberServiceImpl implements MemberService {
 
         return memberRepository.signUp(member);
     }
+
+    @Override
+    public MemberResponseDto check(String name) {
+
+        Member member = memberRepository.check(name);
+
+        return new MemberResponseDto(member);
+    }
+
+
 }

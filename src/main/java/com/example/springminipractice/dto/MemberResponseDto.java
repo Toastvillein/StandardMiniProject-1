@@ -1,6 +1,8 @@
 package com.example.springminipractice.dto;
 
 import com.example.springminipractice.entity.Member;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -12,6 +14,7 @@ public class MemberResponseDto {
     private Long id;
     private String name;
     private int age;
+
 
     public MemberResponseDto(Member member){
         this.id = member.getId();

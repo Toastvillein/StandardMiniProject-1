@@ -7,4 +7,6 @@ public interface MemberRepository {
 
     MemberResponseDto signUp(Member member);
 
+    Member check(String name);
+
 }

@@ -7,5 +7,6 @@ public interface MemberService {
 
     MemberResponseDto signUp(MemberRequestDto dto);
 
+    MemberResponseDto check(String name);
 
 }
