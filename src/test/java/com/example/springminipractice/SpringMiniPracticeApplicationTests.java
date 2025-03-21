@@ -1,0 +1,13 @@
+package com.example.springminipractice;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringMiniPracticeApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
